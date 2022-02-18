@@ -3,8 +3,8 @@
 Este repositorio se dividira en carpertas que contendran cursos y proyectos de javascript desde lo basico del lenguaje, hasta trabajar con reack(Framework Front-End) y node.js(Back-End)
 
 
-Estrucura del repositorio:
-
+## Estrucura del repositorio:
+```
 Directorio:
 
 javascript---
@@ -14,4 +14,4 @@ javascript---
                       -
                       - Actividades del curso
                       - Proyectos del curso 
-                    
+```                    
