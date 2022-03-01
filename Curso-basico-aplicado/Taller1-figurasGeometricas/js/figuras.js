@@ -51,3 +51,18 @@ function calcularAreaCuadrado(){
     const input = document.getElementById("inputCuadrado").value;
     alert(areaCuadrado(input));
 }
+
+// Triangulo 
+
+function calcularPerimetroTriangulo(){
+    const lado1 = document.getElementById("lado1Triangulo").value;
+    const lado2 = document.getElementById("lado2Triangulo").value;
+    const base = document.getElementById("baseTriangulo").value;
+    parent(alert(perimetroTriangulo(lado1,lado2,base)));
+}
+
+function calcularAreaTriangulo(){
+    const base = document.getElementById("baseTriangulo").value;
+    const altura = document.getElementById("alturaTriangulo").value;
+    parseFloat(alert(areaTriangulo(base,altura)));
+}
