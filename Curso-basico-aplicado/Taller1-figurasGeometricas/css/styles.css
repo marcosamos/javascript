@@ -5,10 +5,13 @@
 }
 body{
     background-color: gray;
+    width: 70%;
+    margin: auto;
+    text-align: center;
 }
 
 picture img{
-    width: 25%;
+    width: 20%;
 }
 
 
@@ -16,6 +19,7 @@ section{
     border: 3px blue solid;
     text-align: center;
     padding: 10px;
+    
 }
 
 form label{
@@ -24,5 +28,5 @@ form label{
 }
 
 form button{
-    display: block
+    display: block;
 }

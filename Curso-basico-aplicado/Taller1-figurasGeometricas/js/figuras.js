@@ -12,7 +12,7 @@ console.groupEnd();
 
 // Codigo de triangulo
 
-const perimetroTriangulo = (lado1,lado2,base) => lado1 + base + lado2;
+const perimetroTriangulo = (lado1,lado2,base) => parseFloat(lado1) + parseFloat(lado2) + parseFloat(base);
 
 const areaTriangulo = (base,altura) => (base * altura) / 2;
 console.groupEnd();
@@ -58,11 +58,11 @@ function calcularPerimetroTriangulo(){
     const lado1 = document.getElementById("lado1Triangulo").value;
     const lado2 = document.getElementById("lado2Triangulo").value;
     const base = document.getElementById("baseTriangulo").value;
-    parent(alert(perimetroTriangulo(lado1,lado2,base)));
+    alert(perimetroTriangulo(lado1,lado2,base));
 }
 
 function calcularAreaTriangulo(){
     const base = document.getElementById("baseTriangulo").value;
     const altura = document.getElementById("alturaTriangulo").value;
-    parseFloat(alert(areaTriangulo(base,altura)));
+    alert(areaTriangulo(base,altura));
 }
